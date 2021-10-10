@@ -29,25 +29,5 @@ var fetchXml = "<fetch version='1.0' output-format='xml-platform' mapping='logic
    
 
 
-/*
-var customerCompanies = new Array();
-    function RetrieveAllAccountRecords() {  
-    
-    Xrm.WebApi.retrieveMultipleRecords("account", "?fetchXml= " + fetchXml).then(
-    
-        function success(result) {
-        for(let i = 0; i < result.entities.length; i++)
-        {
-            customerCompanies.push(result.entities[i].accountid); 
-            console.log(result.entities[i].name);
-            console.log(customerCompanies[i]);
-        }
-       Xrm.Utility.alertDialog(customerCompanies,null);    
-    },
-    function (error) {
-    // Handle error conditions
-    Xrm.Utility.alertDialog(error.message, null);
-    });
-   }
-*/
+
 
